@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+nav{
+	background-color: rgba(0,0,0, 0.6);
+	height: 77px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav ul{
+	float: right;
+	color: white;
+	margin-right: 262px;
+	margin-top: 29px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+nav ul:hover{
+	color: #57b55f;
+}
+
+nav ul li{
+	float: left;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li a{
+	color: white;
+}
+
+nav li a:hover{
+	color: #57b55f;
+}
+
+header{
+	text-align: center;
+	color: white;
+	padding-top: 255px;
+	font-size: 67.5px;
+	background-image: url("../img/bkg1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 200px;
+	font-weight: bold;
+}
+
+.logo{
+	width: 125px;
+	margin-left: 143px;
+	margin-top: 20px;
+}
+
+.guia{
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+	position: absolute;
+}
+
+.slogan{
+    font-size: 70px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.btn{
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-verde{
+    background-color: #57b55f;
+    width: 300px;
+}
+
+.btn-branco{
+    background-color: rgba( 0, 0, 0, 0);
+    border: 2px solid white;
+    width: 400px;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
+.hoje{
+	opacity: 0.5; 
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.segunda{
+	float: right;
+	margin-left: 500px; 
+}
+
+.segunda-texto{
+	text-align: left;
+	float: left;
+	margin-left: 141px;
+	padding-top: 47px;
+	font-size: 20px;
+}
+
+.segunda-albuns{
+	padding-top: 47px;
+	margin-left: 690px;
+}
+
+#h1{
+	font-size: 41px;
+}
+
+#h2{
+	font-size: 23px;
+}
